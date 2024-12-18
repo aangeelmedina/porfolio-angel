@@ -1,0 +1,43 @@
+{
+    "nombre": "Ángel",
+    "apellido": "Ortega Medina",
+    "edad": 18,
+    "estudios": [
+      "ESO",
+      "SMR (Sistemas Microinformáticos y Redes)",
+      "DAW (Desarrollo de Aplicaciones Web)"
+    ],
+    "experiencia": [
+      {
+        "puesto": "Resolución de incidencias",
+        "lugar": "Delegación de Educación",
+        "meses": 2
+      },
+      {
+        "puesto": "Resolución de incidencias",
+        "lugar": "Delegación de Igualdad",
+        "meses": 3
+      }
+    ],
+
+    "proyectos": [
+        {
+          "Tres en raya" : "",
+          "Búsqueda del tesoro":"",
+          "Atrapa a la mosca": "",
+          "calculadora cientifica":""
+        }
+        ],
+      
+    "Tecnolojias": [
+        {
+         "JavaScript":"",
+         "HTML":"",
+         "CSS":"",
+         "SQL":"",
+         "Java":"",
+         "bash":""
+        }
+    ]
+}
+  
