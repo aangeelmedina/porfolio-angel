@@ -1,11 +1,9 @@
 {
-    "nombre": "Ángel",
-    "apellido": "Ortega Medina",
-    "edad": 18,
-    "estudios": [
-      "ESO",
-      "SMR (Sistemas Microinformáticos y Redes)",
-      "DAW (Desarrollo de Aplicaciones Web)"
+    "nombre":  [
+      "Ángel Ortega Medina"
+    ],
+    "profesion": [
+      "Estudiante de CGFS DAW"
     ],
     "experiencia": [
       {
@@ -29,7 +27,7 @@
         }
         ],
       
-    "Tecnolojias": [
+    "Tecnologias": [
         {
          "JavaScript":"",
          "HTML":"",

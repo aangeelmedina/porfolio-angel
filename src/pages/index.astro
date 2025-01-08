@@ -11,7 +11,6 @@ const {default : meData} = await import('../assets/me.json');
 
 <Layout>
 	<h1>{meData.nombre}</h1>
-	<h1>{meData.apellido}</h1>
 	<br>
 	<h2>Experiencia</h2>
 	{meData.experiencia.map(exp => (
