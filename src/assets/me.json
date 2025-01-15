@@ -5,14 +5,17 @@
     "profesion": [
       "Estudiante de CGFS DAW"
     ],
+    "Bio":[
+      "Entusiasta de la programación y la tecnología. Actualmente estudiante de CGFS DAW "
+    ],
     "experiencia": [
       {
-        "puesto": "Resolución de incidencias",
+        "puesto":"Resolución de incidencias",
         "lugar": "Delegación de Educación",
         "meses": 2
       },
       {
-        "puesto": "Resolución de incidencias",
+        "puesto":"Resolución de incidencias",
         "lugar": "Delegación de Igualdad",
         "meses": 3
       }
@@ -27,15 +30,14 @@
         }
         ],
       
-    "Tecnologias": [
-        {
-         "JavaScript":"",
-         "HTML":"",
-         "CSS":"",
-         "SQL":"",
-         "Java":"",
-         "bash":""
-        }
+    "Habilidades": [
+         "JavaScript",
+         "HTML",
+         "CSS",
+         "SQL",
+         "Java",
+         "bash"
+        
     ]
 }
   

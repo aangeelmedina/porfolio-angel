@@ -1,5 +1,53 @@
-section {
-    max-width: 200px;
-    margin-left: auto;
-    margin-right: auto;
+html{
+    font-family: Arial, Helvetica, sans-serif;
 }
+section {
+    text-align: center;
+    border: 0px solid;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #dbdada;
+    max-width: 700px;
+    margin: 20px auto;
+}
+.nombre{
+    font-size: 40px;
+}
+.profesion{
+    font-size: 16px;
+    color: #202020;
+    
+}
+.bio{
+    font-size: 15px;
+    color: #474747;
+}
+.habilidad{
+    width: fit-content;
+    padding: 8px;
+    border: 0px solid;
+    background-color: #c1c1c1;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+.habilidad p{
+    margin: 0;
+}
+.habilidadesDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.experienciaArticle{
+    width: fit-content;
+    padding: 8px;
+    border: 0px solid;
+    background-color: #c1c1c1;
+    border-radius: 11px;
+    margin: 20px auto;
+    max-width: 300px;
+    padding: 20px;
+    
+}
+
+
