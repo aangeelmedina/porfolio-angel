@@ -2,15 +2,23 @@
 
 import { object } from 'astro:schema';
 import Layout from '../layouts/Layout.astro';
-
+import Header from '../components/header.astro';
+import Footer from '../components/Footer.astro';
+interface Project {
+	title: string
+	description: string
+}
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 
 const {default : meData} = await import('../assets/me.json');
+
+const projects =await Astro.glob<Project>("../pages/proyecto/*.md")
 ---
 
 <Layout>
-	<section>
+	<Header />
+	<section id="inicio">
 		<h1 class="nombre">{meData.nombre}</h1>
 		<p class="profesion">
 			{meData.profesion}
@@ -19,8 +27,18 @@ const {default : meData} = await import('../assets/me.json');
 			{meData.Bio}
 		</p>
 	</section>
-	
-	<section class="experiencia">
+	<section id="proyectos">
+		<h2>Proyectos</h2>
+		{projects.map((project)=>(
+			<a href={project.url} class="enlace-proyecto">
+				<article class="proyecto">
+				<h3>{project.frontmatter.title}</h3>
+				<p>{project.frontmatter.description}</p>
+				</article>
+			</a>
+		))}
+	</section>
+	<section class="experiencia" id="experiencia">
 		<h2>Experiencia</h2>
 	
 		{meData.experiencia.map(exp => (
@@ -31,7 +49,7 @@ const {default : meData} = await import('../assets/me.json');
 			</article>
 		))}
 	</section>
-		<section>
+		<section id="habilidades">
 			<h2>Habilidades</h2>
 			<div class="habilidadesDiv">
 				{ 
@@ -43,5 +61,6 @@ const {default : meData} = await import('../assets/me.json');
 				}
 			</div>
 		</section>
+	<Footer />
 	
 </Layout>

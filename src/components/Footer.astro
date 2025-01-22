@@ -1,0 +1,35 @@
+---
+import Ig from "./icons/ig.astro";
+import Github from "./icons/git.astro";
+import Linkelind from "./icons/link.astro";
+---
+<footer>
+    <nav>
+        <ul>
+            <li><a href=""><Ig/></a></li>
+            <li><a href=""><Github/></a></li>
+            <li><a href=""><Linkelind/></a></li>
+        </ul>
+    </nav>
+</footer>
+<style>
+    footer{
+        width: 100%;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    ul{
+        width: fit-content;
+        padding: 16px;
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        align-items: center;
+    }
+    li{
+        list-style: none;
+    }
+</style>

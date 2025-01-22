@@ -2,6 +2,7 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 section {
+    margin-top: 84px;
     text-align: center;
     border: 0px solid;
     padding: 20px;
@@ -48,6 +49,22 @@ section {
     max-width: 300px;
     padding: 20px;
     
+}
+.enlace-proyecto:hover{
+    color: black;
+    text-decoration: underline;
+}
+.enlace-proyecto{
+    text-decoration: none;
+}
+.proyecto{
+    border: 2px solid white;
+    border-radius: 10px;
+    color: gray;
+    padding: 20;
+    margin-bottom: 20 px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 
